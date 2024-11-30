@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Styling</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: silver;
+    }
+
+    nav {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        width: 100vw;
+        box-shadow: inset 2px 2px 1px 0px rgb(245, 242, 242);
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: end;
+        padding: 10px;
+    }
+
+    nav li {
+        margin: 2px;
+        border: 1px solid red;
+        background-color: white;
+        border-radius: 2px;
+    }
+
+    nav li:hover {
+        text-transform: uppercase;
+        box-shadow: 2px 2px 1px 0px rgb(245, 242, 242);
+    }
+
+    .navbar {
+        margin-top: 10px;
+        background-color: white;
+        list-style-position: inside;
+        list-style-image: none;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

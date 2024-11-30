@@ -1,0 +1,70 @@
+body{
+    background-color: silver;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h3{
+    margin-left: 20px;
+    color: red;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.navbar li{
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.review{
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+.review p{
+   justify-content: center;
+   color: red;
+}
+
+#tea1{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+
+#tea2{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+
+#tea3{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px; 
+}
+
+
+
+
+
+.foot{
+    background-color: black;
+    color: white;
+}
+
+.foot h3{
+   display: flex;
+    justify-content: center;
+}
+

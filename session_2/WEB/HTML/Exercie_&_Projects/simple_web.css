@@ -1,0 +1,91 @@
+body{
+    background-color: aliceblue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+.slider{
+    background-color: white;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider h1{
+    color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider p{
+    color: green;
+    justify-content: center;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+table th{
+    background-color: black;
+    color: white;
+}
+
+table td{
+    border: 1px solid black;
+}
+
+.review{
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+.teacher1{
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+   text-align: center;
+   border: 1px solid black;
+}
+
+.teacher2{
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+   text-align: center;
+   border: 1px solid black;
+}
+
+.teacher3{
+   background-color: white;
+   color: black;
+   border-radius: 10px;
+   text-align: center;
+   border: 1px solid black;
+}
+
+footer{
+    background-color: black;
+    text-align: center; /* Centers the text horizontally */
+
+}
+footer p{
+    align-items: center;
+    color: aqua;
+}

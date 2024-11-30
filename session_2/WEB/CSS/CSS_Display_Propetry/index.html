@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display Property</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: silver;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .main {
+        background-color: white;
+        width: 100vw;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    ul li {
+        margin: 0 10px 0 10px;
+    }
+
+    .box {
+        background-color: red;
+        /* display: inline; */
+        display: inline-block;
+        border: 2px solid black;
+        margin: 40px;
+        height: 100px;
+
+    }
+
+    span {
+        background-color: green;
+    }
+
+    .any {
+        border: 2px solid blue;
+        height: 50px;
+        /* display: inline-block; */
+        /* display: none; */
+        visibility: hidden;
+
+    }
+
+    #one {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .important {
+        border: 3px solid;
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Contact</li>
+        </nav>
+    </div>
+
+    <div class="box">
+        I am a box
+    </div>
+
+    <span>
+        I am a span
+    </span>
+
+    <div class="box">
+        I am a second box
+    </div>
+
+    <div class="any">
+        I am a second box
+    </div>
+
+    <span id="one">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eos suscipit vero impedit, natus
+        consectetur neque provident dolorum dolorem corrupti vel, necessitatibus qui. Dolores voluptates iure maxime
+        earum, ullam voluptate.
+    </span>
+
+
+    <div class="important">
+        <div>
+            Lorem ipsum dolor
+        </div>
+
+        <div>
+            Lorem ipsum dolor
+        </div>
+    </div>
+</body>
+
+</html>

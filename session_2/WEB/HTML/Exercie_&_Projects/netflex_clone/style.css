@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures consistent width and height calculations */
+}
+
+body {
+    background-color: black;
+    opacity: 0.95; /* Slightly increase opacity for better visibility */
+    font-family: Arial, Helvetica, sans-serif; /* Cleaner font for default */
+    color: white;
+    line-height: 1.6; /* Adds better readability */
+}
+
+.main {
+    background-image: url('assests/images/bg.jpeg');
+    background-size: cover; /* Ensures the background image covers the section */
+    background-position: center;
+    min-height: 100vh; /* Ensures the section fills the viewport height */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Vertically aligns items */
+    padding: 10px 20px; /* Adds space inside the navbar */
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for contrast */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav img {
+    max-height: 40px;
+}
+
+.nav button {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px 15px; /* Adds consistent padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav button:hover {
+    background-color: gray; /* Subtle hover effect */
+    color: white;
+}
+
+.hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.hero .vid {
+    border-radius: 20px;
+    overflow: hidden; /* Ensures rounded borders apply to video */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Adds depth to the video */
+}
+
+.hero .vid video {
+    border-radius: 20px;
+    width: 100%;
+    max-width: 800px; /* Limits the video width */
+    height: auto;
+}
+
+.hero .text {
+    position: absolute;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: white;
+    max-width: 80%; /* Keeps the text readable on smaller screens */
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); /* Enhances readability */
+}
+
+.text h3 {
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+
+.text p {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.mail_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background for contrast */
+    border-radius: 10px;
+    max-width: 600px; /* Centered container */
+    margin: 20px auto; /* Center alignment */
+}
+
+.mail_text #inner_text {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.mail_text span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+.mail_text input {
+    border: 1px solid white;
+    border-radius: 20px;
+    font-size: 1rem;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparent input field */
+    color: white;
+}
+
+.mail_text input::placeholder {
+    color: lightgray;
+}
+
+.mail_text button {
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mail_text button:hover {
+    background-color: darkred; /* Darker shade on hover */
+}
+

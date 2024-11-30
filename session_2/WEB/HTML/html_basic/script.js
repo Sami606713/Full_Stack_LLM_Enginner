@@ -1,0 +1,1 @@
+alert("Hey this is my firt JS code");

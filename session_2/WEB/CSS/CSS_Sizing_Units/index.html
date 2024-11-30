@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing Units</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: silver;
+    }
+
+    .head {
+        border: 2px solid black;
+        height: 10vh;
+        width: 80vw;
+        margin: auto;
+        text-align: center;
+    }
+
+    .box {
+        background-color: aqua;
+        box-sizing: border-box;
+        /* width: 2081px; */
+        width: 80vw;
+        /* height: 80vh; */
+        min-height: 80vh;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .box p {
+        /* font-size: 2rem; */
+        font-size: 10px;
+        box-sizing: border-box;
+        margin-top: 10px;
+        width: 50%;
+        border: 1px solid blue;
+    }
+
+    .mycont {
+        background-color: brown;
+        box-sizing: border-box;
+        margin: 10px auto;
+        /* width: 100vmin; */
+        /* height: 100vmin; */
+        width: 80vw;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <nav class="head">
+        <h1>CSS Sizing Units</h1>
+    </nav>
+
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ducimus perspiciatis molestias tempore
+            doloremque incidunt saepe minima quo molestiae veritatis, quam ullam nulla rem quis? Culpa molestias
+            temporibus consequuntur expedita?
+        </p>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi earum ullam, explicabo assumenda ratione esse
+            itaque nemo, rem porro beatae praesentium illum suscipit repudiandae veniam fugiat? Hic quisquam accusantium
+            praesentium, porro odit nobis? Debitis ipsum similique dolores, assumenda, sunt perspiciatis porro, velit in
+            quidem quia minus sed delectus. Molestias, nam exercitationem! Tempora natus veritatis doloremque odit eum
+            excepturi illum rerum maxime vel veniam, dignissimos ipsam placeat, officia numquam odio, maiores quis?
+            Dolor sint sed eos culpa tempora quidem rerum dignissimos obcaecati, maiores enim beatae modi unde harum et
+            voluptatibus natus molestias ex quos libero vero fugit. Totam unde a eius?
+        </p>
+    </div>
+
+
+    <div class="mycont">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, nostrum earum. Consequuntur odio distinctio
+            cumque. Corrupti provident voluptas error magnam quibusdam? Alias laudantium nihil molestias sunt impedit
+            quos saepe recusandae!
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Shadow and Outlines</title>
+</head>
+<style>
+    /* 
+    Box Shaodow Syntax:
+    box-shadow: h-shadow v-shadow blur spread color inset;
+*/
+    body {
+        background-color: silver;
+    }
+
+    nav {
+        background-color: black;
+        color: white;
+        width: 100vw;
+        box-shadow: inset 6px 4px 1px 0px white;
+        text-shadow: 2px 2px 4px red;
+    }
+
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: end;
+    }
+
+    nav li {
+        padding: 10px;
+        margin: 2px;
+        border: 1px solid white;
+        border-radius: 10px;
+    }
+
+    nav li:hover {
+        background-color: red;
+        line-height: 1px;
+        text-transform: uppercase;
+    }
+
+    .main {
+        border: 2px solid black;
+        box-shadow: 9px 6px 20px 3px white;
+    }
+
+    p {
+        text-shadow: -1px 6px 16px red;
+    }
+</style>
+
+<body>
+
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="main">
+        I am a box
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad rem modi minima, consequatur eos dolorem vero
+        similique, fugiat ab officia, minus eaque error exercitationem. At molestias aperiam eos. Neque, repellat!
+    </p>
+</body>
+
+</html>

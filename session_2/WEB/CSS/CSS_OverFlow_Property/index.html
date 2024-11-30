@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS OverFlow Property</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: silver;
+    }
+
+    .box {
+        border: 1px solid black;
+        width: 40vw;
+        height: 10vh;
+        /* overflow: scroll; */
+        /* overflow: hidden; */
+        /* overflow:visible; */
+        overflow: auto;
+
+        /* text-overflow: clip; */
+        /* text-overflow:ellipsis; */
+        white-space: nowrap;
+    }
+</style>
+
+<body>
+    <h1>CSS OverFlow Property</h1>
+    <div class="box">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet laudantium quaerat fugit earum, rem at
+            voluptatibus sit, molestiae consequatur odio suscipit cumque totam? Omnis voluptatibus mollitia similique
+            obcaecati vero ducimus!
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awsome Card</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: silver;
+    }
+
+    .mycard {
+        border: 1px solid black;
+        border-radius: 10px;
+        background-color: white;
+        height: 100vh;
+        width: 80vw;
+        margin: auto;
+        max-width: 1200px;
+        padding: 10px;
+    }
+
+    .myimg {
+        height: 50%;
+        width: 100%;
+        /* border: 1px solid; */
+    }
+
+    .myimg img {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    span {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(175, 211, 212);
+        color: rgb(15, 118, 236);
+        border-radius: 10px;
+    }
+
+    .text{
+        padding: 10px;
+        text-align: justify;
+    }
+    .btn {
+        text-align: center;
+        margin: 10px;
+    }
+
+    button {
+        background-color: rgb(175, 211, 212);
+        color: rgb(15, 118, 236);
+        padding: 10px 20px;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        background-color: white;
+        color: black;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px rgb(236, 11, 11);
+    }
+</style>
+
+<body>
+    <div class="mycard">
+        <div class="myimg">
+            <img src="chatbot.jpg" alt="Nature">
+        </div>
+
+        <div>
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <div class="text">
+            <h1>My First Card</h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, harum tenetur pariatur cupiditate
+                fugiat dolor nemo dolorem, sint fuga quos optio quaerat saepe voluptatum rem maiores aliquam porro omnis
+                ex!
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, harum tenetur pariatur cupiditate
+                fugiat dolor nemo dolorem, sint fuga quos optio quaerat saepe voluptatum rem maiores aliquam porro omnis
+                ex!
+                
+            </p>
+        </div>
+
+        <div class="btn">
+            <button id="bt">Read More</button>
+        </div>
+    </div>
+    <!-- <script>
+        document.getElementById("bt").addEventListener("click", function () {
+            document.querySelector(".text").innerHTML=`<h1>Samiullah</h1>`
+        });
+    </script> -->
+</body>
+
+</html>
