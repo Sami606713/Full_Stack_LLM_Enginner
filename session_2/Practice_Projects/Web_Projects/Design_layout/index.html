@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Layout</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: silver;
+    }
+
+    nav {
+        background-color: black;
+        width: 100%;
+        box-shadow: inset 2px 2px 1px 0px white;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    nav a{
+        text-decoration: none;
+        color: white;
+    }
+
+    nav a:hover{
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 1px red;
+    }
+    nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: end;
+    }
+
+    nav li {
+        margin: 10px;
+    }
+
+
+    .main {
+        display: flex;
+        border: 1px solid black;
+        background-color: rgb(7, 7, 7);
+        min-height: 80vh;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .main .left, .right{
+        width: 50%;
+        margin: 20px;
+        border-radius: 10px;
+        box-shadow :inset 1px -2px 20px 4px #121111cf;
+    }
+    .main .left {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .main .right {
+        background-color: rgb(243, 243, 245);
+    }
+
+    .shape{
+        border: 1px solid black;
+        border-radius: 50px;
+        min-height: 30vh;
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .shape h2{
+        margin: 0;
+        padding: 10px;
+        
+    }
+
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="left">
+            i am left
+        </div>
+        <div class="right">
+            i am right
+        </div>
+    </div>
+
+
+    <div class="shape">
+        <h2>
+            Welcome to Sigma Web Development Express
+        </h2>
+    </div>
+
+    <footer>
+        <p>&copy; 2020 Sigma Web Development Express</p>
+    </footer>
+</body>
+
+</html>
