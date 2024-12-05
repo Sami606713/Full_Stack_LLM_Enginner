@@ -11,3 +11,8 @@
       - **Learn Git** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/tree/main/session_2/version_control/Git-Foudamental)
   - **Web Server and Frontend project**
       - **Audio Transcription** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/tree/main/session_2/SimpleWebServer)
+
+# Session3
+  - **Text Data Representation and Preprocessing**
+     - **Text preprocessing**  (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Text_Preprocessing/Text_Preprocessing.ipynb)  
+     - **Working with text complete**  (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Text_Preprocessing/Working_with_text_pytorch.ipynb)  
