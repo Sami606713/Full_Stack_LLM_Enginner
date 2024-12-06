@@ -15,4 +15,6 @@
 # Session3
   - **Text Data Representation and Preprocessing**
      - **Text preprocessing**  (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Text_Preprocessing/Text_Preprocessing.ipynb)  
-     - **Working with text complete**  (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Text_Preprocessing/Working_with_text_pytorch.ipynb)  
+     - **Working with text complete**  (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Text_Preprocessing/Working_with_text_pytorch.ipynb)
+  - **Projects**
+     - **Sentiment Analysis Using (Transformers)** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Projects/Sentiment_Analysis(T5%20Model)/Sentiment_analysis_LLM.ipynb) 
