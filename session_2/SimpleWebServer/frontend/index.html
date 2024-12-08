@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speech to Text Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conversion">
+        <h1>Speech to Text Conversion</h1>
+        <!-- Audio Upload Form -->
+        <form id="user_form" enctype="multipart/form-data">
+            <label for="audio-input">Choose Audio File: </label>
+            <input type="file" id="audio-input" name="file" accept="audio/*">
+            <button type="submit">Submit</button>
+        </form>
+        <!-- Audio Text Output -->
+        <div class="audio_text" id="audio-text">
+            <p>Audio transcript will appear here...</p>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
