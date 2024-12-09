@@ -20,4 +20,7 @@
       - **Image Process** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Image_Processing/Image_Processing.ipynb)
       - **Augment Image** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Image_Processing/Image_Data_Augmentation.ipynb)
   - **Projects**
-     - **Sentiment Analysis Using (Transformers)** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Projects/Sentiment_Analysis(T5%20Model)/Notebooks/Sentiment_analysis_LLM.ipynb) 
+     - **Sentiment Analysis Using (Transformers)** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Projects/Sentiment_Analysis(T5%20Model)/Notebooks/Sentiment_analysis_LLM.ipynb)
+     - **Image Classification Fine**
+       - **Fine tune `vgg16` and `transformer` Model on custom Data**
+           - https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Projects/Image_Classification(Vgg16%20%2B%20transformer)/Notebook/Image_Classification%20(1).ipynb
