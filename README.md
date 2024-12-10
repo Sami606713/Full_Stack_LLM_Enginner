@@ -24,3 +24,12 @@
      - **Image Classification Fine**
        - **Fine tune `vgg16` and `transformer` Model on custom Data**
            - https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session3/Projects/Image_Classification(Vgg16%20%2B%20transformer)/Notebook/Image_Classification%20(1).ipynb
+
+
+# Session4(Pytorch)
+  - **Pytorch Foundamental**
+    - **Foundamental** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/pytorch_00_foundamentals/00_pytorch_foundamental.ipynb)
+    -  **Pytorch AutoGrad** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/pytorch_00_foundamentals/Autograd.ipynb)
+  - **Neural Nentwork**
+     - **Simple Linear Model** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/NeuralNetworkBasic/Simple_Sequentail_Model.ipynb)
+     - **Simple CNN Model** (URL Here)
