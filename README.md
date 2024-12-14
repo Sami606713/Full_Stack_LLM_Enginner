@@ -32,4 +32,9 @@
     -  **Pytorch AutoGrad** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/pytorch_00_foundamentals/Autograd.ipynb)
   - **Neural Nentwork**
      - **Simple Linear Model** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/NeuralNetworkBasic/Simple_Sequentail_Model.ipynb)
-     - **Simple CNN Model** (URL Here)
+     - **Simple CNN Model** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/NeuralNetworkBasic/Simple_CNN_Model.ipynb)
+     - **Saving and Loading Model Checkpoints** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/NeuralNetworkBasic/Save_%26_load_Model.ipynb)
+     - **Pytorch TensorBoard** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/NeuralNetworkBasic/pytorch_tensorboard.ipynb)
+  - **Loading Data**
+    - **Load Custom Image Data** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/CustomDataLoading/BuildCustomData.ipynb)
+    - **Load Custom Text Data** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/CustomDataLoading/BuildCustomData(Text).ipynb)
