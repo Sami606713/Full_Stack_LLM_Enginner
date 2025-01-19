@@ -40,3 +40,8 @@
     - **Load Custom Text Data** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/CustomDataLoading/BuildCustomData(Text).ipynb)
   - **Transfer Learning**
     - **Transfer Learning:** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/blob/main/session4/Tranfer_Learning/Transfer_Learning.ipynb) 
+
+# Session5(Open CV)
+  - **OpenCV Basic**
+    - **Basic** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/tree/main/session5(opencv)/basics)
+    - **Tasks** (https://github.com/Sami606713/Full_Stack_LLM_Enginner/tree/main/session5(opencv)/task)
