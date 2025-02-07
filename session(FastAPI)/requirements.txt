@@ -2,3 +2,7 @@ fastapi[standard]
 langchain
 langchain-community
 langchain-groq
+pymongo[srv]==3.11
+bcrypt
+python-jose[cryptography] 
+python-multipart

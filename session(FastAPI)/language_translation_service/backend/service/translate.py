@@ -1,6 +1,9 @@
 from langchain_groq import ChatGroq
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
+from sqlalchemy.orm import Session
+from database.model import Translation
+import logging
 import os
 from dotenv import load_dotenv
 load_dotenv()
@@ -68,6 +71,15 @@ class Language_Translation:
         except Exception as e:
             return str(e)
         
+
+def save_translation(db: Session, text: str, target_language: str, translated_text: str):
+    db_translation = Translation(text=text, target_language=target_language, translated_text=translated_text)
+    db.add(db_translation)
+    db.commit()
+    db.refresh(db_translation)
+    return db_translation
+
+
 if __name__=="__main__":
     text=input("Enter Text: ;")
     target_lang=input("Target Language: ")

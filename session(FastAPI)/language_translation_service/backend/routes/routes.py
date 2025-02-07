@@ -1,6 +1,8 @@
 from fastapi import APIRouter
 from models.model import TranslationRequest
-from service.translate import Language_Translation
+from service.translate import Language_Translation,save_translation
+from sqlalchemy.orm import Session
+import logging
 
 router = APIRouter(tags=['Translation'])
 
@@ -16,6 +18,12 @@ def translate(data:TranslationRequest):
     target_language = data.target_language
 
     # make a object of langaue translation
+    logging.info("Translating the text")
     translation = Language_Translation(text, target_language)
     response = translation.translate()
+    
+    logging.info("Translation done")
+    # call the database and store the data and response
+    save_translation(text=text, target_language=target_language ,translated_text = response,db=Session)
+    logging.info("Data saved in database")
     return {"Text":text,"Translated Text":response}
